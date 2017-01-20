@@ -6,7 +6,7 @@
 /*   By: mfranc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/18 12:26:11 by mfranc            #+#    #+#             */
-/*   Updated: 2017/01/19 20:31:18 by mfranc           ###   ########.fr       */
+/*   Updated: 2017/01/20 20:03:20 by mfranc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,8 @@ int	main(void)
 	printf("Test du - tout seul |%-0s|\n", "bonjour c'est maxime'");
 	printf("Test du - tout seul |%-0x|\n", 7753);
 	printf("\n");
+	printf("test de padding de 10 avec 0 devant et un + |%0+10d|\n", 42);
+	printf("test de padding de 10 avec 0 ' ' devant et un + |% +10d|\n", 42);
 	printf("Test dun padding a gauche puis tester la precision avec un char * |%30.10s|\n", "bonjour c'est maxime'");
 	printf("Test dun padding a gauche puis tester la precision avec un int |%30.7d|\n", 7753);
 	printf("Test de padding - avec un plus pour voir ce que ca fait |%-45s|\n", "bonjour sa va");
@@ -70,4 +72,30 @@ int	main(void)
 	printf("test du flag + avec un signed long long int |%.10 lld\n", 628967);
 	printf("test du flag + avec un signed long long int |%4lld\n", 4254);
 	printf("test du flag + avec un signed unsigned int |%     u\n", 6234567896543245);
+	printf("\n");
+	printf("test de la virgule avec string %12s\n", "bonjour");
+	printf("test de la virgule avec string %12d\n", 9087);
+	printf("test de la virgule avec string %12a\n", 9087.534);
+	printf("\n");
+	printf("test de la precision avec un point sur une chaine de carctere %.10s\n", "Bonj je mapelle maxime");
+	printf("test de la precision avec un point sur un int %.2ld\n", 897);
+	printf("test de la precision avec un point sur un int %.1f\n", 5643.654);
+	printf("\n");
+	printf("test de la precision avec un * et un int : |%.*d|\n", 10, 5643);
+	printf("test de la precision avec un * et une string : |%.*s|\n", 12, "erdjytyterwdgfdshfwrt");
+	printf("test de la precision avec un * et un float : |%.*f|\n", 4, 4356.756452);
+	printf("test de la precision et du padding avec un * et une string : |%*.*s|\n", 40, 12, "erdjytyterwdgfdshfwrt");
+	printf("test de la precision et du padding avec un * et un int : |%*.*d|\n", 40, 12, 90876);
+	printf("test de la precision et du padding avec un * et un float : |%*.*f|\n", 40, 2, 5463.6543224);
+	printf("\n");
+	printf("test du flag $ avec deux int |%2$d %1$d|\n", 53224, 10);
+	printf("test du flag $ avec deux unsigned int |%2$u %1$u|\n", 53224, 10);
+	printf("test du flag $ avec deux float en 0x |%2$f %1$f|\n", 53224.543, 10.54655);
+//	printf("test du flag $ avec deux string : |%2$s %1$s | %d|\n", "deuxieme", "premiere", 564);
+	printf("\n");
+	printf("test du flag L avec juste f |%Lf|\n", 9.989808765436789);
+	printf("test avec juste f |%f|\n", 44234.1432543);
+	printf("\n");
+	printf("%lu\n", sizeof(size_t));
+	printf("%lu\n", sizeof(long int));
 }
