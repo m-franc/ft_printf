@@ -6,7 +6,7 @@
 /*   By: mfranc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/18 12:26:11 by mfranc            #+#    #+#             */
-/*   Updated: 2017/01/20 20:03:20 by mfranc           ###   ########.fr       */
+/*   Updated: 2017/01/21 19:40:47 by mfranc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,6 +96,18 @@ int	main(void)
 	printf("test du flag L avec juste f |%Lf|\n", 9.989808765436789);
 	printf("test avec juste f |%f|\n", 44234.1432543);
 	printf("\n");
-	printf("%lu\n", sizeof(size_t));
-	printf("%lu\n", sizeof(long int));
+	printf("Tests des floats avec f : |%f|\n", 4367.45436);
+	printf("Tests des floats avec f et precision de 4: |%.4f|\n", 4367.45436);
+	printf("Tests des floats avec e : |%e|\n", 43423567.4);
+	printf("Tests des floats avec e et precision de 2: |%.2e|\n", 43423567.4);
+	printf("Tests des floats avec g : |%f|\n", 4367.456);
+	printf("Tests des floats avec g et precision : |%.2f|\n", 4367.436);
+	printf("Tests des floats avec a : |%a|\n", 0.000000);
+	printf("Tests des floats avec a et precision : |%.2a|\n", 4367.436);
+	printf("\n");
+	printf("|%.d|\n", 0);
+	printf("%d\n", printf("|%c|\n", '\0'));
+	printf("%d\n", open("diff.sh", O_RDONLY));	
+	printf("[% s]\n", "");
+	printf("%d\n", "dfsgh");
 }
