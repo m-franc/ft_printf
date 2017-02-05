@@ -6,16 +6,18 @@
 /*   By: mfranc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/18 12:26:11 by mfranc            #+#    #+#             */
-/*   Updated: 2017/01/21 19:40:47 by mfranc           ###   ########.fr       */
+/*   Updated: 2017/02/05 16:49:04 by mfranc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 #include "libft.h"
+#include <locale.h>
 #include <stdio.h>
 
 int	main(void)
 {
+	setlocale(LC_ALL, "");
 //	char *pointer = "little";
 //	int number    =  5;
 //	printf("Here is a number-%4d-and a-%10s-word.\n", number, pointer);
@@ -110,4 +112,6 @@ int	main(void)
 	printf("%d\n", open("diff.sh", O_RDONLY));	
 	printf("[% s]\n", "");
 	printf("%d\n", "dfsgh");
+	printf("%.7#54-x\n", 54);
+	ft_putintendl(printf("%C", L'ॷ'), 10, BASEUP);
 }
