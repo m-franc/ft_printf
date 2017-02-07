@@ -6,7 +6,7 @@
 /*   By: mfranc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/05 18:01:51 by mfranc            #+#    #+#             */
-/*   Updated: 2017/02/06 20:42:06 by mfranc           ###   ########.fr       */
+/*   Updated: 2017/02/07 20:52:26 by mfranc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,6 @@
 
 int	main(void)
 {
-	ft_putintendl(ft_printf("bonj%"), 10, BASEUP);
+	ft_putintendl(ft_printf("bonj%^&s", "Maime"), 10, BASEUP);
 	return (0);
 }

@@ -1,4 +1,4 @@
-make -C ../libft
-gcc -o parsing -fsanitize=address main_parsing.c -L ../libft -lftprintf -I ../libft/includes
+make -C ../../Projets/libft
+gcc -o parsing -Wall -Wextra -Werror -fsanitize=address main_parsing.c -I ../../Projets/libft/includes -L ../../Projets/libft -lftprintf
 ./parsing
 rm parsing

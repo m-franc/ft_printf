@@ -6,7 +6,7 @@
 #    By: mfranc <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/01/17 20:53:55 by mfranc            #+#    #+#              #
-#    Updated: 2017/01/18 12:17:14 by mfranc           ###   ########.fr        #
+#    Updated: 2017/02/07 15:08:01 by mfranc           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ FLAGS = -fsanitize=address
 
 CC = gcc $(FLAGS)
 
-PATH_LIB = ../libft/
+PATH_LIB = ../../Projets/libft/
 
 LIBFT = $(PATH_LIB)libftprintf.a
 
