@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include "ft_printf.h"
+#include "printf.h"
 #include <stdio.h>
 #include <stdarg.h>
 #include <locale.h>
@@ -19,12 +19,12 @@
 
 int	main(void)
 {
-//	printf("%d\n", ft_printf(""));
-//	printf("%d\n", ft_printf("okcestcool"));
-//	printf("%d\n", ft_printf("bgfko%"));
-//	printf("%d\n", ft_printf("Bonjour %s yeee on est bien", "maxime"));
-//	printf("%d\n", ft_printf("Yo, %789)*&^@#s et son ami %)(*)(&&*()))s sont de tres bons amis, ils sont a %ZZZZZ$@s 42", "Maxime", "COUCOUUUUUU", "lecole"));
-//	printf("%d\n", ft_printf("Yo, %s et son ami %s sont de tres bons amis, ils sont a %s 42", "Maxime", "COUCOUUUUUU", "lecole"));
-//	printf("%d\n", ft_printf("Yo, %s et son ami %s sont de tres bons amis", "Maxime", "COUCOUUUUUU"));
+//	printf("%d\n", printf(""));
+//	printf("%d\n", printf("okcestcool"));
+//	printf("%d\n", printf("bgfko%"));
+//	printf("%d\n", printf("Bonjour %s yeee on est bien", "maxime"));
+//	printf("%d\n", printf("Yo, %789)*&^@#s et son ami %)(*)(&&*()))s sont de tres bons amis, ils sont a %ZZZZZ$@s 42", "Maxime", "COUCOUUUUUU", "lecole"));
+//	printf("%d\n", printf("Yo, %s et son ami %s sont de tres bons amis, ils sont a %s 42", "Maxime", "COUCOUUUUUU", "lecole"));
+//	printf("%d\n", printf("Yo, %s et son ami %s sont de tres bons amis", "Maxime", "COUCOUUUUUU"));
 	return (0);
 }
