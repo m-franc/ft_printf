@@ -6,7 +6,7 @@
 /*   By: mfranc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/18 12:26:11 by mfranc            #+#    #+#             */
-/*   Updated: 2017/02/07 15:14:48 by mfranc           ###   ########.fr       */
+/*   Updated: 2017/02/10 20:24:39 by mfranc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,5 +115,5 @@ int	main(void)
 	printf("%.7#54-x\n", 54);
 	ft_putintendl(printf("%C", L'ॷ'), 10, BASEUP);
 	ENDL
-	ft_putintendl(printf("bonjkour%"), 10, BASEUP);
+	ft_putintendl(printf("bonjkour%#4- ()*&^&^*())s", "cocou"), 10, BASEUP);
 }
