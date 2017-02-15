@@ -6,7 +6,7 @@
 /*   By: mfranc <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/05 18:01:51 by mfranc            #+#    #+#             */
-/*   Updated: 2017/02/14 21:29:21 by mfranc           ###   ########.fr       */
+/*   Updated: 2017/02/15 13:09:57 by mfranc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,10 +32,8 @@ int	main(void)
 	
 //	printf("%d\n", printf("Coucou oh %S yeeee , oh tiens, %s marche du premier coup x) et voici un pointeur et maintenant %i un chiffre : %o et un joli long chiffre %ld\n", L"ѦѦѦ", "l'unicode", 12345, coucou, 436578546789067));
 //	printf("%d\n", ft_printf("%S\n", L""));
-//	printf("%d\n", ft_printf("Voici un grd nmbre %s unsigned  :|%lX| ye et un char|%c| et un pti | %C  | unicode, et un pti binaire : |%b    grhgr3ewagv", "en", 867654980766783, '^', L'ৈ', &e));
+	printf("%d\n", printf("Voici un %% grd nmbre %s unsigned  :|%lX| ye et un char|%c| et un pti | %C  | unicode   grhgr3ewagv", "en", 867654980766783, '^', L'ৈ'));
 	ENDL
-	ENDL
-	ENDL
-	printf("%d\n", ft_printf("bonjfirfr % ook cool"));
+	printf("%d\n", printf("bgouy 100%%  "));
 	return (0);
 }
