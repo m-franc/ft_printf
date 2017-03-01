@@ -99,7 +99,7 @@ setlocale(LC_ALL, "");
 //	ft_ft_printf("%lx Ok LONG on xevrait etre bon %s a 100 %c\n", li, "cool", '%');
 //	ft_ft_printf("%hx Ok SHORT on xevrait etre bon %s a 100 %c\n", qw, "cool", '%');
 //	ft_ft_printf("%hhx Ok CHAR on xevrait etre bon %s a 100 %c\n", n,  "cool", '%');
-	ft_printf("%jX Ok INTMAx_T on xevrait etre bon %s a 100 %c\n", p, "cool", '%');
+ft_printf("%jX Ok INTMAx_T on xevrait etre bon %s a 100 %c\n", p, "cool", '%');
 	
 //	ft_printf("TEST 1 %f\n", 654.5436475);
 //	ft_printf("TEST 2 %f\n", 1.789);
@@ -111,6 +111,6 @@ setlocale(LC_ALL, "");
 //	ft_printf("fgd %s \n", "fge");
 //	printf("fd");
 //	ft_printf("%*s %*s\n", 20, "gre", 20, "fgre");
-	ft_printf("%s %s\n", "fwd", "gw");
+	ft_printf("%*d", 89, 100);
 	return (0);
 	}
