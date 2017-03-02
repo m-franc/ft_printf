@@ -29,11 +29,11 @@ setlocale(LC_ALL, "");
 //	ft_ft_printf("\nretour [%d]\n", ft_ft_printf("Bonjour %s yeee on est bien", "maxime"));
 //	ft_ft_printf("\nretour [%d]\n", ft_ft_printf("Yo, %s et son ami %s sont xe tres bons amis, ils sont a %s 43", "Maxime", "Aymeric", "lecole"));
 //	ft_ft_printf("\nretour [%d]\n", ft_ft_printf("Yo, %s et son ami %s sont xe tres bons amis, ils sont a %s 42 et CEST %s", "Maxime", "Aymeric", "lecole", "cool"));
-//	ft_printf("\nretour : [%d]\n", ft_printf("Yo, %#- s et son ami %   s sont xe tres bons amis ok on est a 30%% ", "Maxime", "COUCOUUUUUU"));
-//	char *coucou = "coucou";
+//	printf("\nretour : [%d]\n", printf("Yo, %#- s et son ami %   s sont xe tres bons amis ok on est a 30%% ", "Maxime", "COUCOUUUUUU"));
+	char *coucou = "coucou";
 //	
 //	ft_printf("\nretour : [%d]\n", ft_ft_printf("Coucou oh %lc yeeee , oh tiens, %s marche xu premier coup x) et voici un pointeur %p et maintenant et un joli long chiffre %u", L'Ѧ', "l'unicoxe", &coucou, 436578546789067));
-//	ft_printf("\nretour : [%d]\n", ft_printf("Coucou oh %ls yeeee , oh tiens, %s marche xu premier coup x) et voici un pointeur et maintenant%iun chiffre : %s et un joli long chiffre %ld  \n", L"ѦѦѦ", "l'unicoxe", 12345, coucou, 436578546789067));
+printf("\nretour : [%d]\n", printf("Coucou oh %ls yeeee , oh tiens, %s marche xu premier coup x) et voici un pointeur et maintenant%iun chiffre : %s et un joli long chiffre %ld  \n", L"ѦѦѦ", "l'unicoxe", 12345, coucou, 436578546789067));
 //	printf("\nretour : [%x]\n", printf("%ls %d", L"ѦѦ", 43));
 //	ft_printf("\nretour : [%d]\n", ft_ft_printf("Voici un %% grx nmbre %s unsignex  :|%lx| ye et un char|%c| et un pti | %C  | unicoxe   grhgr3ewagv", "en", 867654980766783, '^', L'ৈ'));
 //	ft_printf("\nretour : [%x]\n", ft_printf("bgouy 100%%  "));
@@ -98,8 +98,8 @@ setlocale(LC_ALL, "");
 //	ft_ft_printf("%llx LONG LONG Ok on xevrait etre bon %s a 100 %c\n", lw, "cool", '%');
 //	ft_ft_printf("%lx Ok LONG on xevrait etre bon %s a 100 %c\n", li, "cool", '%');
 //	ft_ft_printf("%hx Ok SHORT on xevrait etre bon %s a 100 %c\n", qw, "cool", '%');
-//	ft_ft_printf("%hhx Ok CHAR on xevrait etre bon %s a 100 %c\n", n,  "cool", '%');
-ft_printf("%jX Ok INTMAx_T on xevrait etre bon %s a 100 %c\n", p, "cool", '%');
+//	ft_printf("%hhx Ok CHAR on xevrait etre bon %s a 100 %c\n", n,  "cool", '%');
+	printf("%jX Ok INTMAx_T on xevrait etre bon %s a 100 %c\n",  p, "cool", '%');
 	
 //	ft_printf("TEST 1 %f\n", 654.5436475);
 //	ft_printf("TEST 2 %f\n", 1.789);
@@ -110,7 +110,13 @@ ft_printf("%jX Ok INTMAx_T on xevrait etre bon %s a 100 %c\n", p, "cool", '%');
 //	write(1, "\n", 1);
 //	ft_printf("fgd %s \n", "fge");
 //	printf("fd");
-//	ft_printf("%*s %*s\n", 20, "gre", 20, "fgre");
-	ft_printf("%*d", 89, 100);
+//	gre");
+//
+//
+	//printf("\nretour [%d]\n", ft_printf("|%*s|", 43, "fvdw"));
+	
+//	printf("\nretour [%d]\n", printf("|%s| |%s|", "fvdw", "gfd"));
+//	printf("\nretour [%d]\n", ft_printf("|%ls|", NULL));
+//	printf("%ld\n", NULL);
 	return (0);
-	}
+}
